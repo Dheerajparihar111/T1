@@ -1,0 +1,28 @@
+# ============================================================
+# requirements.txt
+# All dependencies for the AI Diabetes Prediction FastAPI App
+# ============================================================
+
+# FastAPI - Web framework for building APIs
+fastapi==0.111.0
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.29.0
+
+# Pydantic - Data validation and settings management
+pydantic==2.7.1
+
+# Supabase Python SDK - Connect to Supabase database
+supabase==2.4.6
+
+# Scikit-learn - Machine learning library (must match version used to train model)
+scikit-learn==1.4.2
+
+# NumPy - Numerical computing (required for ML feature arrays)
+numpy==1.26.4
+
+# Python-dotenv - Load environment variables from .env file
+python-dotenv==1.0.1
+
+# Httpx - Async HTTP client (used internally by Supabase SDK)
+httpx==0.27.0

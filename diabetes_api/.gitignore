@@ -1,0 +1,43 @@
+# ============================================================
+# .gitignore — Files to NEVER commit to Git
+# ============================================================
+
+# Environment variables (contains secret keys!)
+../.env
+.env.local
+.env.production
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# ML model files (large binary files — store in cloud storage)
+# COMMENT THESE OUT if you want to commit your models
+models/*.pkl
+models/*.joblib
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test output
+.pytest_cache/
+.coverage
+htmlcov/
